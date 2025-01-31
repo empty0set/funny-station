@@ -1,8 +1,17 @@
 - type: entity
   id: Singularity
   name: gravitational singularity
+  parent: BaseMob
   description: A mesmerizing swirl of darkness that sucks in everything. If it's moving towards you, run.
   components:
+  - type: GhostRole
+    makeSentient: false
+    allowSpeech: true
+    allowMovement: false
+    name: "LMAO"
+    description: "Yeah sure what could go wrong?"
+    rules: ghost-role-information-freeagent-rules
+  - type: GhostTakeoverAvailable
   - type: Clickable
   - type: AmbientSound
     volume: -4
