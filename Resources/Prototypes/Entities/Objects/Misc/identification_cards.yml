@@ -864,3 +864,15 @@
     - state: idpartymaker
   - type: PresetIdCard
     job: PartyMaker
+
+- type: entity
+  parent: IDCardStandard
+  id: UnionRepresentativeIDCard
+  name: union representative ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idunionrepresentative
+  - type: PresetIdCard
+    job: UnionRepresentative

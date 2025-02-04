@@ -33,6 +33,7 @@
   - Zookeeper
   - ServiceWorker
   - PartyMaker # event-restricted
+  - UnionRepresentative # event-restricted
 
 - type: department
   id: CentralCommandSpecial

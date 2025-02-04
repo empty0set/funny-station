@@ -1244,3 +1244,12 @@
   components:
   - type: Pda
     id: PartyMakerIDCard
+
+- type: entity
+  parent: CargoPDA
+  id: UnionRepresentativePDA
+  name: Union Representative PDA
+  description: TODO
+  components:
+  - type: Pda
+    id: UnionRepresentativeIDCard

@@ -55,6 +55,7 @@ job-name-visitor = Visitor
 job-name-security-clown = Security Clown
 job-name-command-maid = Command Maid
 job-name-party-maker = Party Maker
+job-name-union-representative = Union Representative
 
 # unused jobs
 # these are required for the agent ID job icon tooltips
@@ -123,5 +124,6 @@ JobStationAi = Station AI
 JobStationEngineer = Station Engineer
 JobTechnicalAssistant = Technical Assistant
 JobVisitor = Visitor
+JobUnionRep = Union Representative
 JobWarden = Warden
 JobZookeeper = Zookeeper

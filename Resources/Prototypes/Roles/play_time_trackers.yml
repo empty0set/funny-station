@@ -166,3 +166,6 @@
 
 - type: playTimeTracker
   id: JobPartyMaker
+
+- type: playTimeTracker
+  id: JobUnionRepresentative

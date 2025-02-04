@@ -1,0 +1,25 @@
+- type: job
+  id: UnionRepresentative
+  name: job-name-union-representative
+  description: job-name-union-representative
+  playTimeTracker: JobUnionRepresentative
+  startingGear: UnionRepresentativeGear
+  icon: "JobIconPartyMaker"
+  supervisors: job-supervisors-hop
+  setPreference: true
+  access:
+  - Service
+  - Maintenance
+  - Theatre
+
+- type: startingGear
+  id: UnionRepresentativeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHawaiBlack
+    id: UnionRepresentativePDA
+    ears: ClothingHeadsetService
+    eyes: ClothingEyesGlassesSunglasses
+    shoes: ClothingShoesColorBlack
+  storage:
+    back:
+    - SuperSynthesizerInstrument

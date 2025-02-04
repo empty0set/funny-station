@@ -549,6 +549,16 @@
   - Survival
   - GroupSpeciesBreathTool
 
+- type: roleLoadout
+  id: JobUnionRepresentative
+  groups:
+  - GroupTankHarness
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Survival
+  - GroupSpeciesBreathTool
+
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit
 
