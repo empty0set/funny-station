@@ -4,7 +4,7 @@
   description: job-name-union-representative
   playTimeTracker: JobUnionRepresentative
   startingGear: UnionRepresentativeGear
-  icon: "JobIconPartyMaker"
+  icon: "JobIconUnionRepresentative"
   supervisors: job-supervisors-hop
   setPreference: true
   access:

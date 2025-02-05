@@ -478,3 +478,11 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SecurityClown
   allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUnionRepresentative
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: UnionRepresentative
+  allowSelection: false
